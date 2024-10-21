@@ -716,7 +716,7 @@ def size(a, b=0, nargout=1):
     matlabarray([[4, 4]])
     """
     s = np.asarray(a).shape
-    if s is ():
+    if s == ():
         return 1 if b else (1,) * nargout
     # a is not a scalar
     try:
@@ -737,7 +737,6 @@ def size_equal(a, b):
     return True
 
 
-from numpy import sqrt
 
 sort = sorted
 
