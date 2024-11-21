@@ -1,0 +1,16 @@
+source_files=...
+target_dir=...
+
+translate() {
+    python main.py "$source_files" -d "$target_dir" -v
+}
+
+translate || {
+    pip install -r smop/requirements.txt
+    translate
+}
+
+cp matopy/lib.py "$target_dir/libm2p.py"
+find "$target_dir" -name "*.py" -exec 2to3 -x import -w -n {} +
+ruff format "$target_dir"
+ruff check "$target_dir" --fix

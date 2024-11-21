@@ -1,5 +1,5 @@
 import unittest
-from smop.src.libsmop import *
+from smop.src.libm2p import *
 
 
 class test_matlabarray(unittest.TestCase):
