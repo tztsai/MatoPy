@@ -10,7 +10,7 @@ translate || {
     translate
 }
 
-cp matopy/lib.py "$target_dir/libm2p.py"
+cp matopy/lib.py "$target_dir/libsmop.py"
 find "$target_dir" -name "*.py" -exec 2to3 -x import -w -n {} +
 ruff format "$target_dir"
 ruff check "$target_dir" --fix

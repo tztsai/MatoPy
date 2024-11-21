@@ -24,7 +24,7 @@ def print_header(fp):
         return
     # print("# Running Python %s" % sys.version, file=fp)
     print("# Generated with SMOP ", version.__version__, file=fp)
-    print("from libm2p import *", file=fp)
+    print("from libsmop import *", file=fp)
     print("#", options.filename, file=fp)
 
 
@@ -110,7 +110,7 @@ def main():
 
 
 init_file = """
-from .libm2p import load_all_vars
+from .libsmop import load_all_vars
 globals().update(load_all_vars())
 """
 
