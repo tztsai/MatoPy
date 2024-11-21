@@ -73,10 +73,6 @@ We welcome contributions to MatoPy! If you would like to contribute, please foll
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-For questions or support, please contact tztsai@example.com.
-
 ## Recent Changes
 
 The recent changes for this repository can be found on the [commits page](https://github.com/tztsai/MatoPy/commits).
