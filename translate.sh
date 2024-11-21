@@ -1,5 +1,5 @@
-source_files=...
-target_dir=...
+source_files=$1
+target_dir=$2
 
 translate() {
     python main.py "$source_files" -d "$target_dir" -v

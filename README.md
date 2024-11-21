@@ -4,11 +4,13 @@ MatoPy is a project that translates Matlab code to Python 3. It is an updated ve
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Matlab to Python Translator](#matlab-to-python-translator)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Recent Changes](#recent-changes)
 
 ## Installation
 
@@ -34,7 +36,7 @@ To use MatoPy, follow these steps:
 1. Ensure that both Python and MATLAB are installed on your system.
 2. Run the main script:
     ```sh
-    bash translate.sh
+    bash translate.sh SOURCE_FILES OUTPUT_DIRECTORY
     ```
 
 ## Contributing
