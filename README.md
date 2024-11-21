@@ -1,27 +1,14 @@
 # Matlab to Python Translator
 
-MatoPy is a project that translates Matlab code to Python 3. It is an updated version of [smop](https://github.com/victorlei/smop), fixing various issues and updating the translated code from Python 2 to 3. This repository contains the source code and documentation for the project.
+MatoPy is a project that translates Matlab code to Python 3. It is an updated version of [smop](https://github.com/victorlei/smop), fixing various issues and updating the translated code from Python 2 to 3.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-
-## Introduction
-
-MatoPy aims to provide a seamless integration between Python and MATLAB to leverage the strengths of both languages. It is designed for researchers, engineers, and developers who require the use of both languages in their workflows.
-
-## Features
-
-- Integration of Python and MATLAB code
-- Easy-to-use interface for combining functionalities
-- Support for a wide range of scientific and engineering tasks
-- Extensible and modular design
 
 ## Installation
 
