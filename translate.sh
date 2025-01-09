@@ -2,11 +2,11 @@ source_files=$1
 target_dir=$2
 
 translate() {
-    python main.py "$source_files" -d "$target_dir" -v
+    python run.py "$source_files" -d "$target_dir" -v
 }
 
 translate || {
-    pip install -r smop/requirements.txt
+    pip install -r requirements.txt
     translate
 }
 
